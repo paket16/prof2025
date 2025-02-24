@@ -1,7 +1,7 @@
-##NAT
+# NAT
 nano /etc/nftables.conf
 
-# Дописать снизу на всех роутерах екб крас дата
+## Дописать снизу на всех роутерах екб крас дата
 table ip nat{
     chain postruoting{
     type nat hook postrouting priority 0;
