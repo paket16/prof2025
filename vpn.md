@@ -15,7 +15,7 @@ ip tunnel add tun1 mode gre local 100.10.10.10 remote 200.20.20.10 ttl 64
 ip link set tun1 up
 ip addr add 10.5.5.2/30 dev tun1
 ip tunnel add tun2 mode gre local 100.10.10.10 remote 9.9.9.10 ttl 64
-ip link set tun1 up
+ip link set tun2 up
 ip addr add 10.6.6.1/30 dev tun2
 ```
 
